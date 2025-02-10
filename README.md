@@ -31,7 +31,7 @@ A secure .NET Core 8 Web API for managing employee data with JWT authentication 
 git clone https://github.com/YOUR_USERNAME/EmployeeSystemAPI.git
 
 ### 2. Configure Database
-## Edit appsettings.json (use appsettings.Development.json as template):
+### Edit appsettings.json (use appsettings.Development.json as template):
 {
   "ConnectionStrings": {
     "DefaultConnection": "Server=localhost;Database=EmployeeDB;User Id=sa;Password=YourStrongPassword;TrustServerCertificate=True;"
@@ -44,11 +44,11 @@ git clone https://github.com/YOUR_USERNAME/EmployeeSystemAPI.git
   }
 }
 
-## Generate JWT Key:
-# Linux/macOS
+### Generate JWT Key:
+### Linux/macOS
 openssl rand -base64 32
 
-# Windows PowerShell
+### Windows PowerShell
 [Convert]::ToBase64String((1..32 | ForEach-Object { [byte](Get-Random -Minimum 0 -Maximum 255) }))
 
 ### 3. Run Migrations
