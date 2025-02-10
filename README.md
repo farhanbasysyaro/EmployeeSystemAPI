@@ -28,7 +28,7 @@ A secure .NET Core 8 Web API for managing employee data with JWT authentication 
 ## Setup Instructions
 
 ### 1. Clone Repository
-git clone https://github.com/YOUR_USERNAME/EmployeeSystemAPI.git
+git clone https://github.com/farhanbasysyaro/EmployeeSystemAPI.git
 
 ### 2. Configure Database
 ### Edit appsettings.json (use appsettings.Development.json as template):
